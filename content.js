@@ -245,7 +245,7 @@ window.HANDBOOK = {
       "origin": "러시아인 (모스크바주)",
       "job": "방첩소령",
       "alignment": "질서악",
-      "ideology": "소비에트 국가주의",
+      "ideology": "[[소비에트 국가주의]]",
       "ideologySecret": false,
       "personality": "과묵하고 냉정함 · 통제적",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%95%8C%EB%A0%89%EC%84%B8%EC%9D%B4_%EA%B8%B0%EB%B3%B8.png"
@@ -273,7 +273,7 @@ window.HANDBOOK = {
       "origin": "러시아인 (툴라)",
       "job": "신참 요원",
       "alignment": "질서선",
-      "ideology": "소비에트 이상주의",
+      "ideology": "[[소비에트 이상주의]]",
       "ideologySecret": false,
       "personality": "성실하고 순진함 · 권위에 약함",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%AF%B8%ED%95%98%EC%9D%BC_%EA%B8%B0%EB%B3%B8.png"
@@ -287,7 +287,7 @@ window.HANDBOOK = {
       "origin": "러시아인 (모스크바)",
       "job": "당 중앙기구 관료",
       "alignment": "질서악",
-      "ideology": "정통 마르크스-레닌주의",
+      "ideology": "[[정통 마르크스-레닌주의]]",
       "ideologySecret": false,
       "personality": "침착하고 권위적 · 현실주의",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%BD%98%EC%8A%A4%ED%83%84%ED%8B%B4_%EA%B8%B0%EB%B3%B8.png"
@@ -301,7 +301,7 @@ window.HANDBOOK = {
       "origin": "우크라이나인 (하르키우)",
       "job": "콤소몰 간부",
       "alignment": "질서중립",
-      "ideology": "소비에트 국제주의",
+      "ideology": "[[소비에트 국제주의]]",
       "ideologySecret": false,
       "personality": "낙천적이고 적극적 · 오지랖",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%ED%83%80%EB%A7%88%EB%9D%BC_%EA%B8%B0%EB%B3%B8.png"
@@ -329,7 +329,7 @@ window.HANDBOOK = {
       "origin": "러시아인 (로스토프주) · [[돈코사크]] 가계",
       "job": "육군 소령",
       "alignment": "질서선",
-      "ideology": "소비에트 애국주의",
+      "ideology": "[[소비에트 애국주의]]",
       "ideologySecret": false,
       "personality": "무뚝뚝하고 원칙적 · 책임감 강함",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%B9%85%ED%86%A0%EB%A5%B4_%EA%B8%B0%EB%B3%B8.png"
@@ -343,7 +343,7 @@ window.HANDBOOK = {
       "origin": "러시아인 (야로슬라블)",
       "job": "군병원 외과의",
       "alignment": "혼돈중립",
-      "ideology": "사회주의적 휴머니즘",
+      "ideology": "[[사회주의적 휴머니즘]]",
       "ideologySecret": false,
       "personality": "냉철하고 실용적 · 제 몸엔 무심",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%98%88%EC%B9%B4%ED%85%8C%EB%A6%AC%EB%82%98_%EA%B8%B0%EB%B3%B8.png"
@@ -357,7 +357,7 @@ window.HANDBOOK = {
       "origin": "러시아인 (사라토프)",
       "job": "공군 시험조종사",
       "alignment": "혼돈중립",
-      "ideology": "기술 낙관주의",
+      "ideology": "[[기술 낙관주의]]",
       "ideologySecret": false,
       "personality": "대담하고 직설적 · 승부욕 강함",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%95%88%ED%86%A0%EB%8B%88%EB%82%98_%EA%B8%B0%EB%B3%B8.png"
@@ -371,7 +371,7 @@ window.HANDBOOK = {
       "origin": "러시아인 (모스크바)",
       "job": "극장 배우",
       "alignment": "혼돈중립",
-      "ideology": "문화적 자유주의",
+      "ideology": "[[문화적 자유주의]]",
       "ideologySecret": false,
       "personality": "사교적이고 장난기 많음 · 평판에 민감",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%A7%88%EB%A6%AC%EC%95%BC_%EA%B8%B0%EB%B3%B8.png"
@@ -385,7 +385,7 @@ window.HANDBOOK = {
       "origin": "[[세속 유대계]] (모스크바)",
       "job": "문예지 편집자 · 무명 소설가",
       "alignment": "혼돈중립",
-      "ideology": "비판적 마르크스주의",
+      "ideology": "[[비판적 마르크스주의]]",
       "ideologySecret": true,
       "personality": "냉소적이고 논쟁적 · 지적 허영",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%A0%88%ED%94%84_%EA%B8%B0%EB%B3%B8.png"
@@ -399,7 +399,7 @@ window.HANDBOOK = {
       "origin": "러시아인 (레닌그라드)",
       "job": "국립극장 발레단원",
       "alignment": "질서중립",
-      "ideology": "예술지상주의",
+      "ideology": "[[예술지상주의]]",
       "ideologySecret": false,
       "personality": "완벽주의 · 자존심 높음 · 자기 혹사",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%86%8C%ED%94%BC%EC%95%BC_%EA%B8%B0%EB%B3%B8.png"
@@ -413,7 +413,7 @@ window.HANDBOOK = {
       "origin": "러시아인 (모스크바) · [[구귀족 가계]]",
       "job": "음악원 출신 피아니스트 · 국립연주단 반주자",
       "alignment": "질서중립",
-      "ideology": "왕정복고주의",
+      "ideology": "[[왕정복고주의]]",
       "ideologySecret": true,
       "personality": "침착하고 교양 있음 · 고집 셈",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%95%84%EB%82%98%EC%8A%A4%ED%83%80%EC%8B%9C%EC%95%BC_%EA%B8%B0%EB%B3%B8.png"
@@ -427,7 +427,7 @@ window.HANDBOOK = {
       "origin": "러시아인 (모스크바주)",
       "job": "기계공장 숙련공",
       "alignment": "혼돈중립",
-      "ideology": "노동자주의",
+      "ideology": "[[노동자주의]]",
       "ideologySecret": false,
       "personality": "명랑하고 털털함 · 직설적",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%B0%9C%EB%A0%8C%ED%8B%B0%EB%82%98_%EA%B8%B0%EB%B3%B8.png"
@@ -494,6 +494,18 @@ window.HANDBOOK = {
     "돈코사크": "돈강 유역에 형성된 역사적인 코사크 공동체. 군사적 전통과 지역 정체성을 지녔으며 개인의 성격을 정하는 범주는 아닙니다.",
     "세속 유대계": "유대계 배경을 지니면서 종교적 실천을 생활의 중심에 두지 않는 사람을 가리키는 표현. 경험과 생활 방식은 개인마다 다릅니다.",
     "구귀족 가계": "1917년 혁명 이전 제정 러시아의 귀족 가문 출신. 소련에서 가족의 과거가 사회적 불이익이나 감시로 이어질 수 있었습니다.",
-    "스틸랴기": "서구식 옷차림과 재즈·춤 등을 즐긴 소련 청년 하위문화. 당국의 비판과 단속 대상이 되기도 했습니다."
+    "스틸랴기": "서구식 옷차림과 재즈·춤 등을 즐긴 소련 청년 하위문화. 당국의 비판과 단속 대상이 되기도 했습니다.",
+    "소비에트 국가주의": "국가와 그 기관의 권위, 질서의 안정을 무엇보다 앞세우는 태도. 이념의 세부보다 국가가 흔들리지 않는 것을 먼저 봅니다.",
+    "소비에트 이상주의": "사회주의가 더 공정하고 나은 세상을 만든다는 믿음을 순수하게 간직한 태도. 체제의 모순을 아직 깊이 겪어보지 않은 젊은 세대에게 흔했습니다.",
+    "정통 마르크스-레닌주의": "마르크스의 이론과 레닌의 당 이론을 합친 소련의 공식 이념. 공산당이 노동계급을 이끌고 국가가 경제를 계획해야 한다는 노선을 원칙대로 따릅니다.",
+    "소비에트 국제주의": "여러 민족이 계급의 연대로 하나의 소비에트 인민을 이룬다는 공식 이념. 각 민족의 언어와 문화를 지우기보다 소비에트 공동체 안에 함께 품는 쪽에 가깝습니다.",
+    "소비에트 애국주의": "조국 소련에 대한 충성과 자부심. 대조국전쟁에서 나라를 지켜낸 경험과 희생에 깊이 뿌리를 둡니다.",
+    "사회주의적 휴머니즘": "사회주의의 목표를 결국 한 사람 한 사람의 삶과 존엄에서 찾는 입장. 이념이나 계획보다 눈앞의 사람을 먼저 봅니다.",
+    "기술 낙관주의": "과학과 기술의 발전이 사회 문제를 풀고 미래를 앞당긴다는 믿음. 항공과 우주 개발이 빠르게 커지던 1950년대 소련에서 특히 강했습니다.",
+    "문화적 자유주의": "정치 체제보다 예술과 생활 방식에서 개인의 표현과 취향을 더 넓게 허용해야 한다고 보는 태도. 해빙기 젊은 예술가들 사이에서 조심스럽게 퍼졌습니다.",
+    "비판적 마르크스주의": "마르크스주의를 받아들이면서도 소련의 관료제와 권력 독점을 비판하는 입장. 당내 좌익반대파의 저술에서 영향을 받은 사상으로, 소련에서 입 밖에 내기 위험했습니다.",
+    "예술지상주의": "예술의 가치를 정치적 목적이나 쓸모보다 작품 자체의 완성에서 찾는 태도. 예술이 체제에 봉사하기를 요구한 사회주의 리얼리즘과 맞부딪칩니다.",
+    "왕정복고주의": "혁명으로 무너진 로마노프 왕조와 차르 체제를 되살려야 한다는 신념. 1955년 소련에서 드러나면 반소 활동으로 처벌받을 수 있었습니다.",
+    "노동자주의": "당이나 지식인보다 현장 노동자의 권리와 이해를 가장 앞에 두는 입장. 노동자의 국가를 내세운 소련에서도 실제 공장의 처우는 따로 따져봐야 한다고 봅니다."
   }
 };
