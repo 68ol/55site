@@ -1,6 +1,6 @@
 (() => {
 const {esc,inline,paragraphs,imageURL}=Guide;
-let data=Guide.load(),current=null,opener=null;
+let data=structuredClone(Guide.original),current=null,opener=null;
 const dialog=document.querySelector('#detail');
 const body=document.querySelector('#detail-body');
 const foot=document.querySelector('#detail-footer');
@@ -18,8 +18,6 @@ function render(){
  document.querySelector('.timeline').innerHTML=data.history.map((h,i)=>{const years=h.years.split('–');return '<button type="button" class="timeline-row" data-history="'+i+'" aria-haspopup="dialog"><span class="year">'+esc(years[0])+'<span>— '+esc(years.slice(1).join('–'))+'</span></span><span class="timeline-copy"><strong>'+esc(h.title)+'</strong><span>'+esc(h.summary)+'</span><small>자세히 읽기 ＋</small></span></button>';}).join('');
  document.querySelector('#faction-list').innerHTML=data.factions.map((f,i)=>'<article class="faction" data-id="'+f.id+'"><div class="faction-text"><span class="faction-index">0'+(i+1)+' / '+esc(f.label)+'</span><h3>'+inline(f.name==='KGB'?'[[KGB]]':f.name,data)+'</h3><p class="faction-role">'+esc(f.role)+'</p>'+paragraphs(f.body,data)+'<div class="relation">'+f.relations.map(r=>'<div><strong>'+esc(r.target)+'</strong>'+esc(r.text)+'</div>').join('')+'</div></div>'+(f.image?'<figure><img src="'+esc(imageURL(f.image))+'" alt="'+esc(f.alt)+'" loading="lazy"><figcaption>AI 재현 이미지 · 1955년의 분위기를 재구성</figcaption></figure>':'')+'</article>').join('');
  document.querySelector('#character-list').innerHTML=data.factions.map(f=>'<div class="directory-group"><h3 class="directory-label">'+esc(f.name)+'</h3>'+data.characters.map((c,i)=>c.faction===f.id?'<button type="button" class="person-row" data-person="'+i+'" aria-haspopup="dialog"><span class="person-number">'+String(i+1).padStart(2,'0')+'</span><strong>'+esc(c.name)+'</strong><span class="person-job">'+esc(c.age)+' · '+esc(c.job)+'</span><span class="person-open" aria-hidden="true">＋</span></button>':'').join('')+'</div>').join('');
- document.querySelector('.draft-banner')?.remove();let hasDraft=false;try{hasDraft=!!localStorage.getItem(Guide.key);}catch{}
- if(hasDraft||Guide.storageError){const b=document.createElement('div');b.className='draft-banner';b.textContent=Guide.storageError||'이 브라우저에 저장된 초안을 보고 있습니다.';document.querySelector('#top').prepend(b);}
  if(current)showDetail(current.type,current.index,false);
 }
 function showDetail(type,index,focus=true){
@@ -55,8 +53,6 @@ dialog.addEventListener('close',()=>{hideTip();current=null;document.body.style.
 dialog.addEventListener('click',e=>{if(e.target!==dialog)return;const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeDetail();});
 document.addEventListener('scroll',hideTip,true);window.addEventListener('resize',hideTip);
 document.addEventListener('error',e=>{if(e.target.tagName==='IMG'){const img=e.target;const box=document.createElement('span');box.className='image-error';box.textContent='이미지를 불러오지 못했습니다.';img.replaceWith(box);}},true);
-window.addEventListener('storage',e=>{if(e.key===Guide.key){data=Guide.load();render();}});
-window.addEventListener('message',e=>{if(e.origin!==location.origin||e.source!==parent||!e.data||e.data.type!=='moscow-preview')return;try{data=Guide.validate(e.data.content);render();const path=e.data.path||'';if(path.startsWith('characters.'))showDetail('person',Number(path.split('.')[1]),false);else if(path.startsWith('history.'))showDetail('history',Number(path.split('.')[1]),false);else{if(dialog.open)closeDetail();const id=path.startsWith('factions.')?'factions':path.startsWith('system.')?'system':'top';document.getElementById(id).scrollIntoView({behavior:'instant'});}}catch{}});
 render();
 const observer=new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting){document.querySelectorAll('.spine nav a').forEach(a=>{const active=a.hash==='#'+e.target.id;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');});}},{rootMargin:'-10% 0px -60% 0px'});document.querySelectorAll('main>section').forEach(s=>observer.observe(s));
 })();
