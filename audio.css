@@ -22,3 +22,4 @@ body.gated{overflow:hidden}
 @media(max-width:740px){.player{right:12px;bottom:12px;padding:6px 10px 6px 6px;gap:8px}.player-label{display:none}.player input[type=range]{width:80px}}
 @media(prefers-reduced-motion:reduce){.gate{transition:none}}
 main:focus{outline:none}
+@media(max-width:740px){.player.notice .player-label{display:block;white-space:normal;max-width:120px}}
