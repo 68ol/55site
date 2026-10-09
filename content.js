@@ -242,11 +242,12 @@ window.HANDBOOK = {
       "name": "알렉세이 보론초프",
       "age": "38",
       "gender": "남",
+      "origin": "러시아인 (모스크바주)",
       "job": "방첩소령",
       "alignment": "질서악",
-      "ideology": "",
+      "ideology": "소비에트 국가주의",
       "ideologySecret": false,
-      "body": "과묵하고 통제적입니다. 짧은 질문을 거듭하며 상대의 말에서 어긋나는 부분을 찾습니다. 말을 많이 하기보다 상대가 침묵을 견디지 못하게 만드는 쪽에 가깝습니다.\n질서와 복종을 중시하며, 사람을 대할 때도 대화의 주도권을 놓으려 하지 않습니다.",
+      "personality": "과묵하고 냉정함 · 통제적",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%95%8C%EB%A0%89%EC%84%B8%EC%9D%B4_%EA%B8%B0%EB%B3%B8.png"
     },
     {
@@ -255,11 +256,12 @@ window.HANDBOOK = {
       "name": "리디야 사포노바",
       "age": "27",
       "gender": "여",
+      "origin": "러시아인 (레닌그라드)",
       "job": "통신·감청 기술직",
       "alignment": "질서중립",
-      "ideology": "",
+      "ideology": "정치적 순응주의",
       "ideologySecret": false,
-      "body": "냉철하게 일을 처리하며 건조한 유머를 던집니다. 남의 말을 듣는 일이 직업이지만, 정작 자신의 사생활은 좀처럼 드러내지 않습니다.\n감정보다 확인할 수 있는 정보와 실무를 앞세웁니다.",
+      "personality": "조용하고 세심함 · 건조한 유머",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%A6%AC%EB%94%94%EC%95%BC_%EA%B8%B0%EB%B3%B8.png"
     },
     {
@@ -268,11 +270,12 @@ window.HANDBOOK = {
       "name": "미하일 주코프",
       "age": "24",
       "gender": "남",
+      "origin": "러시아인 (툴라)",
       "job": "신참 요원",
       "alignment": "질서선",
-      "ideology": "",
+      "ideology": "소비에트 이상주의",
       "ideologySecret": false,
-      "body": "성실하고 순진한 면이 남아 있는 신참입니다. 맡은 일을 제대로 해내려 애쓰지만, 상부의 권위 앞에서는 쉽게 주눅이 듭니다.\n옳다고 믿는 것과 명령 사이의 간격을 아직 능숙하게 다루지 못합니다.",
+      "personality": "성실하고 순진함 · 권위에 약함",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%AF%B8%ED%95%98%EC%9D%BC_%EA%B8%B0%EB%B3%B8.png"
     },
     {
@@ -281,11 +284,12 @@ window.HANDBOOK = {
       "name": "콘스탄틴 벨랴예프",
       "age": "46",
       "gender": "남",
+      "origin": "러시아인 (모스크바)",
       "job": "당 중앙기구 관료",
       "alignment": "질서악",
-      "ideology": "정통 마르크스주의",
+      "ideology": "정통 마르크스-레닌주의",
       "ideologySecret": false,
-      "body": "권위적이고 절제되어 있으며, 원칙과 현실의 권력 관계를 함께 봅니다. 자신이 믿는 질서를 쉽게 의심하지 않습니다.\n감정을 드러내기보다 단정적인 말과 태도로 대화를 정리합니다.",
+      "personality": "침착하고 권위적 · 현실주의",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%BD%98%EC%8A%A4%ED%83%84%ED%8B%B4_%EA%B8%B0%EB%B3%B8.png"
     },
     {
@@ -294,11 +298,12 @@ window.HANDBOOK = {
       "name": "타마라 멜니코바",
       "age": "29",
       "gender": "여",
+      "origin": "우크라이나인 (하르키우)",
       "job": "콤소몰 간부",
       "alignment": "질서중립",
-      "ideology": "",
+      "ideology": "소비에트 국제주의",
       "ideologySecret": false,
-      "body": "낙천적이고 적극적입니다. 남의 일에도 쉽게 발을 들이며 사람들을 활동에 끌어들입니다.\n고향에 대한 자부심이 강해 우크라이나를 그저 변두리로 취급하는 말에는 곧바로 반발합니다.",
+      "personality": "낙천적이고 적극적 · 오지랖",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%ED%83%80%EB%A7%88%EB%9D%BC_%EA%B8%B0%EB%B3%B8.png"
     },
     {
@@ -307,11 +312,12 @@ window.HANDBOOK = {
       "name": "세르게이 로마노프",
       "age": "33",
       "gender": "남",
+      "origin": "러시아인 (레닌그라드)",
       "job": "외무부 통역",
       "alignment": "혼돈중립",
-      "ideology": "",
+      "ideology": "정치적 현실주의",
       "ideologySecret": false,
-      "body": "세련되고 능청스럽습니다. 분위기를 빠르게 읽고 필요한 말을 고르면서도, 자신의 속내는 잘 드러내지 않습니다.\n통역의 정확함과 사교적인 유연함 사이에서 사람과 상황을 다룹니다.",
+      "personality": "세련되고 능청스러움 · 속내 숨김",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%84%B8%EB%A5%B4%EA%B2%8C%EC%9D%B4_%EA%B8%B0%EB%B3%B8.png"
     },
     {
@@ -320,11 +326,12 @@ window.HANDBOOK = {
       "name": "빅토르 소콜로프",
       "age": "36",
       "gender": "남",
+      "origin": "러시아인 (로스토프주) · [[돈코사크]] 가계",
       "job": "육군 소령",
       "alignment": "질서선",
-      "ideology": "",
+      "ideology": "소비에트 애국주의",
       "ideologySecret": false,
-      "body": "무뚝뚝하고 책임감이 강합니다. 원칙을 중시하며 말보다 맡은 일을 끝까지 해내는 태도로 신뢰를 보입니다.\n참전 경험과 전우에 대한 기억은 그의 판단과 의무감에 깊이 남아 있습니다.",
+      "personality": "무뚝뚝하고 원칙적 · 책임감 강함",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%B9%85%ED%86%A0%EB%A5%B4_%EA%B8%B0%EB%B3%B8.png"
     },
     {
@@ -333,11 +340,12 @@ window.HANDBOOK = {
       "name": "예카테리나 모로조바",
       "age": "30",
       "gender": "여",
+      "origin": "러시아인 (야로슬라블)",
       "job": "군병원 외과의",
       "alignment": "혼돈중립",
-      "ideology": "",
+      "ideology": "사회주의적 휴머니즘",
       "ideologySecret": false,
-      "body": "냉철한 실용주의자입니다. 치료 앞에서는 계급과 체면보다 환자의 생명이 우선입니다.\n권위적인 명령이라도 환자에게 도움이 되지 않는다고 판단하면 쉽게 따르지 않습니다.",
+      "personality": "냉철하고 실용적 · 제 몸엔 무심",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%98%88%EC%B9%B4%ED%85%8C%EB%A6%AC%EB%82%98_%EA%B8%B0%EB%B3%B8.png"
     },
     {
@@ -346,11 +354,12 @@ window.HANDBOOK = {
       "name": "안토니나 그로모바",
       "age": "28",
       "gender": "여",
+      "origin": "러시아인 (사라토프)",
       "job": "공군 시험조종사",
       "alignment": "혼돈중립",
-      "ideology": "",
+      "ideology": "기술 낙관주의",
       "ideologySecret": false,
-      "body": "직설적이고 대담합니다. 자신의 실력을 인정받고 싶어 하며, 선전용 ‘모범 여성’으로만 다뤄지는 것을 싫어합니다.\n비행과 경쟁 앞에서는 말보다 결과로 자신을 증명하려 합니다.",
+      "personality": "대담하고 직설적 · 승부욕 강함",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%95%88%ED%86%A0%EB%8B%88%EB%82%98_%EA%B8%B0%EB%B3%B8.png"
     },
     {
@@ -359,11 +368,12 @@ window.HANDBOOK = {
       "name": "마리야 볼코바",
       "age": "25",
       "gender": "여",
+      "origin": "러시아인 (모스크바)",
       "job": "극장 배우",
       "alignment": "혼돈중립",
-      "ideology": "",
+      "ideology": "문화적 자유주의",
       "ideologySecret": false,
-      "body": "사람들과 어울리는 데 능하고 감정을 풍부하게 표현합니다. 상대의 이름을 과장되게 부르며 대화의 분위기를 바꾸곤 합니다.\n타인의 시선과 자신의 평판에 민감합니다. 무대 밖에서도 누가 자신을 어떻게 바라보는지 놓치지 않습니다.",
+      "personality": "사교적이고 장난기 많음 · 평판에 민감",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%A7%88%EB%A6%AC%EC%95%BC_%EA%B8%B0%EB%B3%B8.png"
     },
     {
@@ -372,11 +382,12 @@ window.HANDBOOK = {
       "name": "레프 긴즈부르크",
       "age": "29",
       "gender": "남",
+      "origin": "[[세속 유대계]] (모스크바)",
       "job": "문예지 편집자 · 무명 소설가",
       "alignment": "혼돈중립",
-      "ideology": "",
-      "ideologySecret": false,
-      "body": "냉소적이고 논쟁을 즐깁니다. 날카로운 말 뒤에는 출판과 표현의 한계를 누구보다 가까이에서 지켜본 경험이 있습니다.\n비판적인 사상에 은밀히 영향을 받지만, 어떤 생각을 어디에서 말할지는 따져야 합니다.",
+      "ideology": "비판적 마르크스주의",
+      "ideologySecret": true,
+      "personality": "냉소적이고 논쟁적 · 지적 허영",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%A0%88%ED%94%84_%EA%B8%B0%EB%B3%B8.png"
     },
     {
@@ -385,11 +396,12 @@ window.HANDBOOK = {
       "name": "소피야 레베데바",
       "age": "32",
       "gender": "여",
+      "origin": "러시아인 (레닌그라드)",
       "job": "국립극장 발레단원",
       "alignment": "질서중립",
-      "ideology": "",
+      "ideology": "예술지상주의",
       "ideologySecret": false,
-      "body": "스스로를 혹사할 정도로 완벽을 추구합니다. 연습과 규율을 통해 쌓아온 기량에 강한 자부심이 있습니다.\n자신에게 엄격한 만큼 타인의 안이한 태도도 쉽게 넘기지 못합니다.",
+      "personality": "완벽주의 · 자존심 높음 · 자기 혹사",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%86%8C%ED%94%BC%EC%95%BC_%EA%B8%B0%EB%B3%B8.png"
     },
     {
@@ -398,11 +410,12 @@ window.HANDBOOK = {
       "name": "아나스타시야 벨로바",
       "age": "25",
       "gender": "여",
+      "origin": "러시아인 (모스크바) · [[구귀족 가계]]",
       "job": "음악원 출신 피아니스트 · 국립연주단 반주자",
       "alignment": "질서중립",
       "ideology": "왕정복고주의",
       "ideologySecret": true,
-      "body": "교양이 있고 고집이 셉니다. 음악원 출신 피아니스트로, 국립연주단의 반주를 맡고 있습니다.\n왕정복고주의 신념을 은밀히 품고 있습니다. 공식적인 설명과 개인적인 믿음 사이의 거리를 의식합니다.",
+      "personality": "침착하고 교양 있음 · 고집 셈",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%95%84%EB%82%98%EC%8A%A4%ED%83%80%EC%8B%9C%EC%95%BC_%EA%B8%B0%EB%B3%B8.png"
     },
     {
@@ -411,11 +424,12 @@ window.HANDBOOK = {
       "name": "발렌티나 쿠즈네초바",
       "age": "27",
       "gender": "여",
+      "origin": "러시아인 (모스크바주)",
       "job": "기계공장 숙련공",
       "alignment": "혼돈중립",
       "ideology": "노동자주의",
       "ideologySecret": false,
-      "body": "명랑하고 직설적입니다. 노동자의 권리에 관심이 많고, 현장에서 겪는 부당한 일을 쉽게 흘려보내지 않습니다.\n흥분하면 말이 빨라집니다. 손에 익은 기술과 일터의 경험을 자신의 근거로 삼습니다.",
+      "personality": "명랑하고 털털함 · 직설적",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%B0%9C%EB%A0%8C%ED%8B%B0%EB%82%98_%EA%B8%B0%EB%B3%B8.png"
     },
     {
@@ -424,11 +438,12 @@ window.HANDBOOK = {
       "name": "라리사 체르노바",
       "age": "28",
       "gender": "여",
+      "origin": "러시아인 (모스크바)",
       "job": "국영 의상실 재봉사",
       "alignment": "혼돈악",
-      "ideology": "",
+      "ideology": "실용주의",
       "ideologySecret": false,
-      "body": "붙임성이 좋고 현실적입니다. 사람들에게 필요한 것이 무엇인지 알아내고, 그것을 구할 수 있는 연결을 만듭니다.\n친절한 대화 속에서도 거래의 조건과 자신의 이익을 놓치지 않습니다.",
+      "personality": "영리하고 붙임성 좋음 · 현실적",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%9D%BC%EB%A6%AC%EC%82%AC_%EA%B8%B0%EB%B3%B8.png"
     },
     {
@@ -437,11 +452,12 @@ window.HANDBOOK = {
       "name": "그리고리 안드레예프",
       "age": "31",
       "gender": "남",
+      "origin": "러시아인 (모스크바)",
       "job": "트램 정비공",
       "alignment": "혼돈선",
-      "ideology": "",
+      "ideology": "정치적 무관심",
       "ideologySecret": false,
-      "body": "쾌활하고 붙임성이 좋습니다. 주변에서 논쟁이 벌어져도 고장 난 물건을 고치며 농담을 건넵니다.\n거창한 말보다 당장 손을 보태는 일을 자연스럽게 여기며, 사람 사이의 긴장을 가볍게 풀어냅니다.",
+      "personality": "쾌활하고 장난기 많음 · 생활력 강함",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EA%B7%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC_%EA%B8%B0%EB%B3%B8.png"
     }
   ],
