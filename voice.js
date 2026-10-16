@@ -1,5 +1,6 @@
 (()=>{
   const dialog=document.querySelector('#detail');
+  const VER='20261017d';
   const labels={base:'목소리',pet:'애칭'};
   let clip=null,btn=null;
   function stop(){
@@ -21,7 +22,7 @@
       box.querySelector('.voice-ru').textContent=line.ru;box.querySelector('.voice-ko').textContent=line.ko;}
     btn=b;b.classList.add('playing');
     window.BGM&&window.BGM.duck();
-    const c=new Audio(line.file.split('/').map(encodeURIComponent).join('/'));clip=c;
+    const c=new Audio(line.file.split('/').map(encodeURIComponent).join('/')+'?v='+VER);clip=c;
     c.onended=stop;
     c.onerror=()=>{stop();if(box)box.querySelector('.voice-ko').textContent='음성을 불러오지 못했습니다.';};
     setTimeout(()=>{if(clip===c)c.play().catch(()=>stop());},200);
