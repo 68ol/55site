@@ -439,7 +439,11 @@ window.HANDBOOK = {
       "ideologySecret": true,
       "personality": "냉소적이고 논쟁적 · 지적 허영",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%A0%88%ED%94%84_%EA%B8%B0%EB%B3%B8.png",
-      "voice": null
+      "voice": {
+        "file": "voice/레프_애칭.mp3",
+        "ru": "Ну что, душа моя... Опять не спится? Иди сюда, посидим вместе.",
+        "ko": "왜 그래, 내 사랑… 또 잠이 안 와? 이리 와, 같이 좀 앉아 있자."
+      }
     },
     {
       "id": "sofiya",
@@ -454,7 +458,11 @@ window.HANDBOOK = {
       "ideologySecret": false,
       "personality": "완벽주의 · 자존심 높음 · 자기 혹사",
       "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%86%8C%ED%94%BC%EC%95%BC_%EA%B8%B0%EB%B3%B8.png",
-      "voice": null
+      "voice": {
+        "file": "voice/소피야_애칭.mp3",
+        "ru": "Моё солнышко... Ты совсем замёрзло. Дай мне свои руки, я их согрею.",
+        "ko": "우리 햇살… 완전히 얼었네. 손 줘 봐, 내가 녹여줄게."
+      }
     },
     {
       "id": "anastasiya",
