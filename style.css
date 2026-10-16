@@ -16,12 +16,12 @@
 .voice-btn{display:inline-flex;align-items:center;gap:8px;flex:none;background:none;border:1px solid var(--ink);color:var(--ink);padding:5px 12px 5px 10px;font:.78rem var(--sans);letter-spacing:.04em}
 .voice-btn:hover{background:#962f2712}
 .voice-icon{width:0;height:0;border-left:8px solid currentColor;border-top:5px solid transparent;border-bottom:5px solid transparent}
-.voice-btn.playing{background:var(--ink);color:var(--paper)}
-.voice-btn.playing .voice-icon{width:8px;height:8px;border:0;background:currentColor}
-.voice-line{position:absolute;left:0;right:0;bottom:0;padding:28px 22px 14px;background:linear-gradient(transparent,#1d1411e6 45%);color:#f3e8c8;text-align:left;animation:voiceIn .4s ease}
+.voice-btn.playing .voice-icon{animation:voicePulse .9s ease-in-out infinite}
+@keyframes voicePulse{50%{opacity:.25}}
+.voice-line{position:absolute;left:0;right:0;bottom:0;padding:28px 22px 14px;background:linear-gradient(transparent,#1d1411e6 45%);color:#f3e8c8;text-align:left}.voice-line.show{animation:voiceIn .4s ease}
 .voice-line[hidden]{display:none}
 .voice-ru{margin:0;font:600 1.05rem/1.5 Georgia,'Noto Serif KR',serif;letter-spacing:.01em}
 .voice-ko{margin:2px 0 0;font:.85rem/1.5 var(--sans);opacity:.85}
 @keyframes voiceIn{from{opacity:0;transform:translateY(6px)}}
 @media(max-width:740px){.voice-line{padding:18px 12px 8px}.voice-ru{font-size:.85rem}.voice-ko{font-size:.72rem}.voice-btn{padding:4px 9px 4px 8px;font-size:.7rem}}
-@media(prefers-reduced-motion:reduce){.voice-line{animation:none}}
+@media(prefers-reduced-motion:reduce){.voice-line.show,.voice-btn.playing .voice-icon{animation:none}}
