@@ -248,7 +248,12 @@ window.HANDBOOK = {
       "ideology": "[[소비에트 국가주의]]",
       "ideologySecret": false,
       "personality": "과묵하고 냉정함 · 통제적",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%95%8C%EB%A0%89%EC%84%B8%EC%9D%B4_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%95%8C%EB%A0%89%EC%84%B8%EC%9D%B4_%EA%B8%B0%EB%B3%B8.png",
+      "voice": {
+        "file": "voice/알렉세이_애칭.mp3",
+        "ru": "Ну что, солнышко... Иди сюда. Я ведь ждал тебя.",
+        "ko": "자, 우리 햇살… 이리 와. 기다리고 있었으니까."
+      }
     },
     {
       "id": "lidiya",
@@ -262,7 +267,12 @@ window.HANDBOOK = {
       "ideology": "정치적 순응주의",
       "ideologySecret": false,
       "personality": "조용하고 세심함 · 건조한 유머",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%A6%AC%EB%94%94%EC%95%BC_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%A6%AC%EB%94%94%EC%95%BC_%EA%B8%B0%EB%B3%B8.png",
+      "voice": {
+        "file": "voice/리디야_애칭.mp3",
+        "ru": "Ну что, зайка, опять не спишь? Иди ко мне.",
+        "ko": "뭐야, 토끼야. 또 안 자고 있어? 이리 와."
+      }
     },
     {
       "id": "mikhail",
@@ -276,7 +286,12 @@ window.HANDBOOK = {
       "ideology": "[[소비에트 이상주의]]",
       "ideologySecret": false,
       "personality": "성실하고 순진함 · 권위에 약함",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%AF%B8%ED%95%98%EC%9D%BC_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%AF%B8%ED%95%98%EC%9D%BC_%EA%B8%B0%EB%B3%B8.png",
+      "voice": {
+        "file": "voice/미하일_애칭.mp3",
+        "ru": "Солнышко, ты только не волнуйся, ладно? Я рядом.",
+        "ko": "햇살아, 너무 걱정하지 마, 응? 내가 곁에 있잖아."
+      }
     },
     {
       "id": "konstantin",
@@ -290,7 +305,12 @@ window.HANDBOOK = {
       "ideology": "[[정통 마르크스-레닌주의]]",
       "ideologySecret": false,
       "personality": "침착하고 권위적 · 현실주의",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%BD%98%EC%8A%A4%ED%83%84%ED%8B%B4_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%BD%98%EC%8A%A4%ED%83%84%ED%8B%B4_%EA%B8%B0%EB%B3%B8.png",
+      "voice": {
+        "file": "voice/콘스탄틴_애칭.mp3",
+        "ru": "Ну, голубушка... Хватит хлопотать. Сядь рядом со мной.",
+        "ko": "자, 여보… 이제 그만 부산 떨고 내 옆에 앉게."
+      }
     },
     {
       "id": "tamara",
@@ -304,7 +324,12 @@ window.HANDBOOK = {
       "ideology": "[[소비에트 국제주의]]",
       "ideologySecret": false,
       "personality": "낙천적이고 적극적 · 오지랖",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%ED%83%80%EB%A7%88%EB%9D%BC_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%ED%83%80%EB%A7%88%EB%9D%BC_%EA%B8%B0%EB%B3%B8.png",
+      "voice": {
+        "file": "voice/타마라_애칭.mp3",
+        "ru": "Зайчонок, ну улыбнись! Вот так, совсем другое дело!",
+        "ko": "아기 토끼야, 자, 웃어 봐! 그렇지, 훨씬 낫네!"
+      }
     },
     {
       "id": "sergei",
@@ -318,7 +343,12 @@ window.HANDBOOK = {
       "ideology": "정치적 현실주의",
       "ideologySecret": false,
       "personality": "세련되고 능청스러움 · 속내 숨김",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%84%B8%EB%A5%B4%EA%B2%8C%EC%9D%B4_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%84%B8%EB%A5%B4%EA%B2%8C%EC%9D%B4_%EA%B8%B0%EB%B3%B8.png",
+      "voice": {
+        "file": "voice/세르게이_애칭.mp3",
+        "ru": "Душа моя, вы даже не представляете, как я рад вас видеть.",
+        "ko": "내 사랑, 당신을 보니 얼마나 기쁜지 모르시겠군요."
+      }
     },
     {
       "id": "viktor",
@@ -332,7 +362,12 @@ window.HANDBOOK = {
       "ideology": "[[소비에트 애국주의]]",
       "ideologySecret": false,
       "personality": "무뚝뚝하고 원칙적 · 책임감 강함",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%B9%85%ED%86%A0%EB%A5%B4_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%B9%85%ED%86%A0%EB%A5%B4_%EA%B8%B0%EB%B3%B8.png",
+      "voice": {
+        "file": "voice/빅토르_애칭.mp3",
+        "ru": "Ну что, родная душа, замёрзла? Давай руку.",
+        "ko": "어이구, 내 소중한 사람. 추워? 손 줘 봐."
+      }
     },
     {
       "id": "ekaterina",
@@ -346,7 +381,12 @@ window.HANDBOOK = {
       "ideology": "[[사회주의적 휴머니즘]]",
       "ideologySecret": false,
       "personality": "냉철하고 실용적 · 제 몸엔 무심",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%98%88%EC%B9%B4%ED%85%8C%EB%A6%AC%EB%82%98_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%98%88%EC%B9%B4%ED%85%8C%EB%A6%AC%EB%82%98_%EA%B8%B0%EB%B3%B8.png",
+      "voice": {
+        "file": "voice/예카테리나_애칭.mp3",
+        "ru": "Милый мой, ты хоть сегодня отдохнёшь? Ну-ка, иди сюда.",
+        "ko": "자기야, 오늘은 좀 쉴 거야? 자, 이리 와 봐."
+      }
     },
     {
       "id": "antonina",
@@ -360,7 +400,12 @@ window.HANDBOOK = {
       "ideology": "[[기술 낙관주의]]",
       "ideologySecret": false,
       "personality": "대담하고 직설적 · 승부욕 강함",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%95%88%ED%86%A0%EB%8B%88%EB%82%98_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%95%88%ED%86%A0%EB%8B%88%EB%82%98_%EA%B8%B0%EB%B3%B8.png",
+      "voice": {
+        "file": "voice/안토니나_애칭.mp3",
+        "ru": "Эй, котёнок, не скучай без меня. Я скоро вернусь!",
+        "ko": "야, 아기 고양이! 나 없다고 심심해하지 마. 금방 돌아올게!"
+      }
     },
     {
       "id": "mariya",
@@ -374,7 +419,12 @@ window.HANDBOOK = {
       "ideology": "[[문화적 자유주의]]",
       "ideologySecret": false,
       "personality": "사교적이고 장난기 많음 · 평판에 민감",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%A7%88%EB%A6%AC%EC%95%BC_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%A7%88%EB%A6%AC%EC%95%BC_%EA%B8%B0%EB%B3%B8.png",
+      "voice": {
+        "file": "voice/마리야_애칭.mp3",
+        "ru": "Ах, радость моя! Ну наконец-то ты пришёл!",
+        "ko": "아, 내 기쁨! 드디어 왔구나!"
+      }
     },
     {
       "id": "lev",
@@ -388,7 +438,8 @@ window.HANDBOOK = {
       "ideology": "[[비판적 마르크스주의]]",
       "ideologySecret": true,
       "personality": "냉소적이고 논쟁적 · 지적 허영",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%A0%88%ED%94%84_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%A0%88%ED%94%84_%EA%B8%B0%EB%B3%B8.png",
+      "voice": null
     },
     {
       "id": "sofiya",
@@ -402,7 +453,8 @@ window.HANDBOOK = {
       "ideology": "[[예술지상주의]]",
       "ideologySecret": false,
       "personality": "완벽주의 · 자존심 높음 · 자기 혹사",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%86%8C%ED%94%BC%EC%95%BC_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%86%8C%ED%94%BC%EC%95%BC_%EA%B8%B0%EB%B3%B8.png",
+      "voice": null
     },
     {
       "id": "anastasiya",
@@ -416,7 +468,12 @@ window.HANDBOOK = {
       "ideology": "[[왕정복고주의]]",
       "ideologySecret": true,
       "personality": "침착하고 교양 있음 · 고집 셈",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%95%84%EB%82%98%EC%8A%A4%ED%83%80%EC%8B%9C%EC%95%BC_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%EC%95%84%EB%82%98%EC%8A%A4%ED%83%80%EC%8B%9C%EC%95%BC_%EA%B8%B0%EB%B3%B8.png",
+      "voice": {
+        "file": "voice/아나스타시야_애칭.mp3",
+        "ru": "Милый мой... Как хорошо, что ты здесь.",
+        "ko": "내 사랑… 네가 여기 있어서 얼마나 좋은지."
+      }
     },
     {
       "id": "valentina",
@@ -430,7 +487,12 @@ window.HANDBOOK = {
       "ideology": "[[노동자주의]]",
       "ideologySecret": false,
       "personality": "명랑하고 털털함 · 직설적",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%B0%9C%EB%A0%8C%ED%8B%B0%EB%82%98_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%B0%9C%EB%A0%8C%ED%8B%B0%EB%82%98_%EA%B8%B0%EB%B3%B8.png",
+      "voice": {
+        "file": "voice/발렌티나_애칭.mp3",
+        "ru": "Ну, глупыш... Иди сюда. Замёрзнешь ведь совсем.",
+        "ko": "아휴, 바보야… 이리 와. 그러다 아주 꽁꽁 얼겠어."
+      }
     },
     {
       "id": "larisa",
@@ -444,7 +506,12 @@ window.HANDBOOK = {
       "ideology": "실용주의",
       "ideologySecret": false,
       "personality": "영리하고 붙임성 좋음 · 현실적",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%9D%BC%EB%A6%AC%EC%82%AC_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%EB%9D%BC%EB%A6%AC%EC%82%AC_%EA%B8%B0%EB%B3%B8.png",
+      "voice": {
+        "file": "voice/라리사_애칭.mp3",
+        "ru": "Золотце моё, ну иди сюда! Дай я на тебя посмотрю.",
+        "ko": "우리 귀한 사람, 이리 와 봐! 얼굴 좀 보자."
+      }
     },
     {
       "id": "grigori",
@@ -458,7 +525,12 @@ window.HANDBOOK = {
       "ideology": "정치적 무관심",
       "ideologySecret": false,
       "personality": "쾌활하고 장난기 많음 · 생활력 강함",
-      "image": "https://raw.githubusercontent.com/68ol/55/main/%EA%B7%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC_%EA%B8%B0%EB%B3%B8.png"
+      "image": "https://raw.githubusercontent.com/68ol/55/main/%EA%B7%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC_%EA%B8%B0%EB%B3%B8.png",
+      "voice": {
+        "file": "voice/그리고리_애칭.mp3",
+        "ru": "Эх ты, солнышко моё! Иди сюда, обниму!",
+        "ko": "아이고, 우리 햇살! 이리 와, 한번 안아 보자!"
+      }
     }
   ],
   "terms": {

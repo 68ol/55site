@@ -6,10 +6,10 @@
   const title=status.textContent;
   const store={get(k,d){try{const v=localStorage.getItem(k);return v===null?d:v;}catch{return d;}},set(k,v){try{localStorage.setItem(k,v);}catch{}}};
   let volume=Math.min(1,Math.max(0,parseFloat(store.get('moscow-volume','0.5'))||0));
-  let muted=false,fadeTimer=0,retry=null;
+  let muted=false,fadeTimer=0,retry=null,ducked=false;
   const icons={on:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg>',off:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm18.3 0-1.4-1.4L17 10.6l-2.9-3L12.7 9l2.9 3-2.9 2.9 1.4 1.4 2.9-2.9 2.9 2.9 1.4-1.4-2.9-2.9z"/></svg>'};
   function setStatus(t){status.textContent=t||title;player.classList.toggle('notice',!!t);}
-  function render(){const off=muted||audio.paused||volume===0;toggle.innerHTML=off?icons.off:icons.on;toggle.setAttribute('aria-label',off?'음악 켜기':'음악 끄기');toggle.setAttribute('aria-pressed',String(!off));range.value=Math.round(volume*100);}
+  function render(){const off=muted||(audio.paused&&!ducked)||volume===0;toggle.innerHTML=off?icons.off:icons.on;toggle.setAttribute('aria-label',off?'음악 켜기':'음악 끄기');toggle.setAttribute('aria-pressed',String(!off));range.value=Math.round(volume*100);}
   function setVol(v){try{audio.volume=Math.min(1,Math.max(0,v));}catch{}}
   function fadeTo(target,ms,done){
     clearInterval(fadeTimer);const from=audio.volume,start=Date.now();
@@ -43,7 +43,12 @@
   }
   gate.querySelector('.gate-enter').addEventListener('click',()=>enter(true));
   gate.querySelector('.gate-silent').addEventListener('click',()=>enter(false));
+  window.BGM={
+    duck(){if(muted||audio.paused||ducked)return;ducked=true;fadeTo(0,250,()=>{if(ducked)audio.pause();});},
+    restore(){if(!ducked)return;ducked=false;if(muted)return;Promise.resolve(audio.play()).then(()=>fadeTo(volume,900)).catch(()=>{});}
+  };
   toggle.addEventListener('click',()=>{
+    ducked=false;
     if(muted||audio.paused){muted=false;store.set('moscow-muted','0');if(volume<.05){volume=.5;store.set('moscow-volume','0.5');}if(audio.paused)play();else fadeTo(volume,400);}
     else{muted=true;clearRetry();setStatus();store.set('moscow-muted','1');fadeTo(0,400,()=>{if(muted)audio.pause();});}
     render();
